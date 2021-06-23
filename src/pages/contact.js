@@ -5,11 +5,11 @@ import Constant from '../constant/constant'
 
 
 // markup
-const IndexPage = () => {
+const Contact = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <h1 style={Constant.primaryBackgrond}>Welcome to my Gatsby site!</h1>
+      <title>Contact Page</title>
+      <h1 style={Constant.primaryBackgrond}>Welcome to Contact us screen!</h1>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
@@ -20,4 +20,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default Contact
