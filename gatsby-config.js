@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Site",
+    siteUrl:"https://mj-book.netlify.app/"
   },
   plugins: [
     "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
