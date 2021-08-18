@@ -18,6 +18,16 @@ const Constant={
     },
     defaultBackground:{
         backgroundColor:'#ffffff'
+    },
+    footerBackground:{
+        backgroundColor:'#505050',
+        color:'#fff'
+    },
+    p30:{
+        paddingLeft:30,
+        paddingRight:30,
+        paddingTop:30,
+        paddingBottom:30
     }
 
 }
